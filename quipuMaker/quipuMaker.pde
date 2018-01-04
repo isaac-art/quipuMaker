@@ -5,6 +5,8 @@
 /////////////////////////////////////////
 
 /*     ASCII TO QUIPU INTERPRETER
+  ------------REQUIREMENTS----------
+  ControlP5
   ------------INSTRUCTIONS----------
   - Select an ASCII file with 'Load New File', by default the program 
     uses itself as the input file.
