@@ -6,7 +6,6 @@
 
 /*     
  ASCII TO QUIPU TRANSLATOR
- 
  "I've lost all the seconds that led up to this"
  
  ------------REQUIREMENTS----------
@@ -19,8 +18,6 @@
  - Click 'Create Quipu' to run the loaded file through the quipuMaker
  - returns a pdf 'fileName-quipu.pdf' 
  - and an image 'fileName-singleExampleQuipu.png '
- 
- 
  
  ------------ABOUT-----------------
  *Quipu*
@@ -87,15 +84,14 @@
  
  During this process I have also been thinking about where decay fits in
  the Memory, Action, Decision, Repetition, of programming. I guess it fits 
- undder memory, as memory can decay. I think it is an important part of an 
+ under memory, as memory can decay. I think it is an important part of an 
  ecosystem. I started playing with the tape based programming languages like
- Brainfuck andjust allowing the tape to loop, rather than ahaving an unlimited 
+ Brainfuck by allowing the tape to loop, rather than having an unlimited 
  length. There were some interesting experiments where images were inputted and
  translated onto a tape loop and reprinted. I think I will also return to this
  at some point. 
  
- 
- The experiments with brainfuck and tape memerory languages can also be found
+ The experiments with brainfuck and tape-memory languages can also be found
  in the git repository. https://github.com/isaac-art/quipuMaker
  
  
