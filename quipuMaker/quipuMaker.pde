@@ -275,16 +275,19 @@ void drawQuipuPage() {
     int knotSize = 36;
     for (int h = 0; h < hundreds; h++) {
       fill(fillAlternator); 
+      // draw hundreds
       rect(i*spacing-(knotSize/2), spaceY + (spaceY/2) + (h*knotSize), knotSize, knotSize);
       fillAlt();
     }
     for (int t = 0; t < tens; t++) {
       fill(fillAlternator);
+      // draw tens
       rect(i*spacing-(knotSize/2), spaceY*2 + (spaceY/2) + (t*knotSize), knotSize, knotSize); 
       fillAlt();
     }
     for (int o = 0; o < ones; o++) {
       fill(fillAlternator);
+      // draw ones
       rect(i*spacing-(knotSize/2), spaceY*3 + (spaceY/2) + (o*knotSize), knotSize, knotSize);
       fillAlt();
     }
