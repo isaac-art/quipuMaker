@@ -1,39 +1,116 @@
-    /////////////////////////////////////////
-   //             Quipu Maker             //
-  //           by Isaac Clarke           //  
- //      December 2017 - January 2018   //
+/////////////////////////////////////////
+//             Quipu Maker             //
+//           by Isaac Clarke           //  
+//      December 2017 - January 2018   //
 /////////////////////////////////////////
 
-/*     ASCII TO QUIPU INTERPRETER
-  ------------REQUIREMENTS----------
-  ControlP5
-  ------------INSTRUCTIONS----------
-  - Select an ASCII file with 'Load New File', by default the program 
-    uses itself as the input file.
-  - Click 'Create Quipu' to run the loaded file through the quipuMaker
-  - returns a pdf 'fileName-quipu.pdf' 
-  - and an image 'fileName-singleExampleQuipu.png '
-  
-  This isn't optimized, so numbers are also read as ascii values, and
-  it currently doesn't create any sub-pendants on the quipu or use knot 
-  direction.
-  Originally this output a single image containing all of the quipus of
-  a file. The problem with this was if the file was long then the image 
-  would either have to get really big or too small to be read. Visully 
-  interesting but not useful as knotting instructions. So this version
-  creates a PDF instead and each quipu is on a new page.
-  It also outputs a single example image of one of the quipus.
-  The previous version can be found here:
-  https://github.com/isaac-art/quipuMaker/tree/master/previousVersions/quipuMakerSingleImage
-    
-  ------------ABOUT-----------------
-  Quipu (or talking knots) are a 17th Century Inca knotting 
-  
-  
-  
-  ------------REFERENCES------------
-  
-  
+/*     
+ ASCII TO QUIPU TRANSLATOR
+ 
+ "I've lost all the seconds that led up to this"
+ 
+ ------------REQUIREMENTS----------
+ ControlP5
+ an input file (defaults to itself)
+ 
+ ------------INSTRUCTIONS----------
+ - Select an ASCII file with 'Load New File', by default the program 
+ uses itself as the input file.
+ - Click 'Create Quipu' to run the loaded file through the quipuMaker
+ - returns a pdf 'fileName-quipu.pdf' 
+ - and an image 'fileName-singleExampleQuipu.png '
+ 
+
+ 
+ ------------ABOUT-----------------
+ *Quipu*
+ Quipu (or talking knots) are knotted databases used by the Incas. 
+ Quipiu became the main form of record-keeping for the Inca Empire. 
+ As they had no written language the Quipu is our main evidence for 
+ theory on the society and culture of that time.
+ They were used as census databases, recording infomation about the 
+ distribution of wealth. They were used in markets to display the 
+ prices of different goods. They recorded the ownership of land, 
+ or any other information you wanted to store.
+ 
+ In this script I have taken the numerical structure of the Quipu 
+ and aligned it to the ASCII values for characters. This allows me 
+ to print out diagrams for knotting quipus and store the files as 
+ fabric.
+ 
+ The acknowledgement of the previous forms of technology: weaving to 
+ computers, fabric to paper, knots to mysql. Allows us a perspective 
+ from which we can look at human interaction with current digital
+ technology as a relationship that has been happening for a long, long
+ time. 
+ 
+ *Language*
+ I began this project think of quipu as a programming language, and spent
+ a long time thinking of how to use qupiu as an input for a processing 
+ script. I began by writing an interpretor for the Brainfuck programming 
+ language, and attempting to convert Brainfuck to Quipu. So mapping all the
+ accepted characters ( . , < > [ ] + -  ) to qualities of a Pendant (knot numbers,
+ color, cord twist, knot direction). I quickly began to see that the combined 
+ restriction fo the two systems on top of each other would make the amount of 
+ knots required to record anything an astronomical figure. 
+ This is something I would like to return to at some point, but 
+ for this work I found it made more sense to get a good understanding of
+ the Qupiu structure and its traditional use as data storage.
+ 
+ *Database or File Type*
+ This presented two options for me, illustration of somthing like a csv, 
+ where there is a consistent structure to the data which can be mapped. 
+ This would allow a user to select a csv file and have a quipu drawn 
+ that contains the information. Alternatively thinking of the quipu as 
+ a filetype and instead translating anyfile into the quipus numerical 
+ strucuture. I decided to go with the second process as I was interested 
+ in creating a quipu that contained the information that created it (as in 
+ a quipu which was made by this script that contained this script). This 
+ made the quipu still data storage but less like a database and more like 
+ a hard-drive. I like the versitility of this. 
+ 
+ This script takes an input text file converts it to ascii values, 
+ seperates the ones, tens, hundreds, and draw them as knots. This isn't 
+ optimized, so numbers are also read as ascii values. It currently doesn't 
+ create any sub-pendants on the quipu, or use knot direction.
+ Originally this output a single image containing all of the quipus of
+ a file. The problem with this was if the file was long then the image 
+ would either have to get really big or too small to be read. Visully 
+ interesting but not useful as knotting instructions. So this version
+ creates a PDF instead and each quipu is on a new page.
+ 
+ It also outputs a single example image of one of the quipus randomly and 
+ saves that as an example alongside the PDF.
+ 
+ The previous version can be found here:
+ https://github.com/isaac-art/quipuMaker/tree/master/previousVersions/quipuMakerSingleImage
+ 
+ During this process I have also been thinking about where decay fits in
+ the Memory, Action, Decision, Repetition, of programming. I guess it fits 
+ undder memory, as memory can decay. I think it is an important part of an 
+ ecosystem. I started playing with the tape based programming languages like
+ Brainfuck andjust allowing the tape to loop, rather than ahaving an unlimited 
+ length. There were some interesting experiments where images were inputted and
+ translated onto a tape loop and reprinted. I think I will also return to this
+ at some point. 
+ 
+ The experiments with brainfuck and tape memerory languages can also be found
+ in the git repository. https://github.com/isaac-art/quipuMaker
+ 
+ 
+ 
+ ------------REFERENCES------------
+ Parr, T (2010) Language Implementation Patterns. Pragmatic Bookshelf.
+ Ascher, M. Ascher, R (1982) Mathematics of the Incas, Code of the Quipu. Dover Publications Inc.
+ Blackwell, A (2006) Metaphors we program by: Space, Action and Society in Java. University of Cambridge
+ Fuller, M (2008) Software Studies: a lexicon. MIT Press.
+ McLean, A (2011) Artist-Programmers and Programming Languages for the Arts. Thesis Paper. Goldsmiths UoL.
+ "Esolangs" - https://esolangs.org (sourced 7/1/18)
+ "Esoteric Codes" - http://esoteric.codes/ (sourced 7/1/18)
+ "Harvard Quipu Database" - http://khipukamayuq.fas.harvard.edu/ (sourced 7/1/18)
+ "PENELOPE Weaving as Techinical Existance" - https://penelope.hypotheses.org/ (sourced 7/1/18)
+ 
+ 
  */
 
 import controlP5.*;
@@ -63,9 +140,10 @@ boolean hasLoadedFile = false;
 boolean startRecordPDF = false;
 
 void setup() {
-  // set the window as resizable
+  // set the window as resizable to change between the gui and recording the images
   surface.setResizable(true);
-  surface.setSize(300, 300);
+  surface.setSize(300, 220);
+  background(224, 101, 93);
   // setup the buttons for GUI
   cp5 = new ControlP5(this);
   setupUI();
@@ -89,12 +167,12 @@ void draw() {
   // already made, then show the GUI controls
   if (!saveQuipu) {
     //ui is being displayed
-    surface.setSize(300, 300);
+    surface.setSize(300, 220);
+    background(6, 3, 3);
     cp5.show();
   }
-
   if (saveQuipu) { 
-    if(startRecordPDF){
+    if (startRecordPDF) {
       cp5.hide();
       surface.setSize(6000, 3375);
       pdf = (PGraphicsPDF)beginRecord(PDF, fileName+"-quipu.pdf");
@@ -112,7 +190,7 @@ void draw() {
       pageCounter++;
     }
     //draw the end pages at the end
-    else if(pageCounter-2 >= fileAsStrings.length) {
+    else if (pageCounter-2 >= fileAsStrings.length) {
       background(255);
       drawBackCover();
       endRecord(); 
@@ -135,11 +213,13 @@ void setupUI() {
   cp5.addButton("loadTheFile")
     .setPosition(40, 40)
     .setSize(220, 40)
+    .setColorBackground(color(227, 162, 66))
     .setLabel("Load New File");
 
   cp5.addButton("saveTheQuipu")
     .setPosition(40, 140)
     .setSize(220, 40)
+    .setColorBackground(color(177, 70, 76))
     .setLabel("create Quipu");
 }
 
