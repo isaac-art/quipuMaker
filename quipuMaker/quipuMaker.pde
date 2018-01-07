@@ -20,7 +20,7 @@
  - returns a pdf 'fileName-quipu.pdf' 
  - and an image 'fileName-singleExampleQuipu.png '
  
-
+ 
  
  ------------ABOUT-----------------
  *Quipu*
@@ -94,9 +94,9 @@
  translated onto a tape loop and reprinted. I think I will also return to this
  at some point. 
  
+ 
  The experiments with brainfuck and tape memerory languages can also be found
  in the git repository. https://github.com/isaac-art/quipuMaker
- 
  
  
  ------------REFERENCES------------
@@ -109,7 +109,6 @@
  "Esoteric Codes" - http://esoteric.codes/ (sourced 7/1/18)
  "Harvard Quipu Database" - http://khipukamayuq.fas.harvard.edu/ (sourced 7/1/18)
  "PENELOPE Weaving as Techinical Existance" - https://penelope.hypotheses.org/ (sourced 7/1/18)
- 
  
  */
 
@@ -249,9 +248,11 @@ void drawQuipuPage() {
   // in the center of the page
   previousWidth = (spacing*fileAsStrings[pageCounter-2].length())-20;
   translate((6000-previousWidth)/2, (3375-lineHeight)/2);
-  // draw the top line of the quipu, ignore if the line is empty
+  // set the color for the quipu, the color could be used to represent something
+  // in future versions. the pendants could all have thier own color instead.
   stroke(random(160), 80, 120);
   strokeWeight(10);
+  // draw the top line of the quipu, ignore if the line is empty
   if (fileAsStrings[pageCounter-2].length() > 0) {
     line(0, lineStart, (spacing*fileAsStrings[pageCounter-2].length())-spacing, lineStart);
   }
