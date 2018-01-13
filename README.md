@@ -53,12 +53,17 @@ Originally this output a single image containing all of the quipus of a file. T
 ![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/quipuMaker/exampleThumb.png)
 <br/>
 ##### Thumbnail (740 x 450) <br/>
- <br/>
+
 <br/>
+
 ![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_E1213.jpg)
 <br/>
 ##### Test Quipu <br/>
+
+
 ---
+
 <br/>
+
 ### References  <br/>
  Parr, T (2010) Language Implementation Patterns. Pragmatic Bookshelf.  <br/>  Ascher, M. Ascher, R (1982) Mathematics of the Incas, Code of the Quipu. Dover Publications Inc.  <br/>  Blackwell, A (2006) Metaphors we program by: Space, Action and Society in Java. University of Cambridge. <br/>  Fuller, M (2008) Software Studies: a lexicon. MIT Press.  <br/>  McLean, A (2011) Artist-Programmers and Programming Languages for the Arts. Thesis Paper. Goldsmiths UoL.  <br/>  "Esolangs" - [https://esolangs.org](https://esolangs.org) (sourced 7/1/18). <br/>  "Esoteric Codes" - [http://esoteric.codes/](http://esoteric.codes/) (sourced 7/1/18). <br/>  "Harvard Quipu Database" - [http://khipukamayuq.fas.harvard.edu/](http://khipukamayuq.fas.harvard.edu/) (sourced 7/1/18). <br/>  "PENELOPE Weaving as Techinical Existance" - [https://penelope.hypotheses.org/](https://penelope.hypotheses.org/) (sourced 7/1/18). <br/>  <br/> The quipuMaker Documentation Video is available here - [https://vimeo.com/250792355](https://vimeo.com/250792355). 
