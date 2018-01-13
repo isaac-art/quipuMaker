@@ -6,6 +6,9 @@
 ![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/quipuMaker/exampleThumb.png)
 ##### Thumbnail (740 x 450)
 
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_E1213.jpg)
+##### Test Quipu
+
 ---
 
 ### quipuMaker
@@ -28,16 +31,32 @@ Quipu (or talking knots) are knotted databases used by the Incas.  Quipiu becam
   <br/>
   This script takes an input text file converts it to ascii values, seperates the ones, tens, hundreds, and draw them as knots. This isn't optimized, so numbers are also read as ascii values. It currently doesn't create any sub-pendants on the quipu, or use knot direction.  
  <br/>
-
 Originally this output a single image containing all of the quipus of a file. The problem with this was if the file was long then the image would either have to get really big, or the drawing too small to be read. Visully interesting but not useful as knotting instructions. So this version creates a PDF instead and each quipu is on a new page.  
   <br/>
   It also outputs a single example image of one of the quipus randomly and saves that as an example alongside the PDF. The previous version can be found here:   [https://github.com/isaac-art/quipuMaker/tree/master/previousVersions/](https://github.com/isaac-art/quipuMaker/tree/master/previousVersions/)  
-
 <br/> During this process I have also been thinking about where decay fits in the Memory, Action, Decision, Repetition, of programming. I guess it fits under memory, as memory can decay. I think it is an important part of an ecosystem. I started playing with the tape based programming languages like Brainfuck by allowing the tape to loop, rather than having an unlimited length. There were some interesting experiments where images were inputted and translated onto a tape loop and reprinted. I think I will also return to these experiments at some point in the near future.  
   <br/> The experiments with tape-loop-memory languages can also be found in the git repository. [https://github.com/isaac-art/quipuMaker](https://github.com/isaac-art/quipuMaker)
   
 ---
-
 <br/>
-** References **  <br/>
+### Sketchbook
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1187.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1188.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1189.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1190.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1191.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1192.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1193.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1194.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1195.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1196.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1197.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1198.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1199.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1200.jpg)
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/quipuTest.JPG)
+
+---
+<br/>
+### References  <br/>
  Parr, T (2010) Language Implementation Patterns. Pragmatic Bookshelf.  <br/>  Ascher, M. Ascher, R (1982) Mathematics of the Incas, Code of the Quipu. Dover Publications Inc.  <br/>  Blackwell, A (2006) Metaphors we program by: Space, Action and Society in Java. University of Cambridge. <br/>  Fuller, M (2008) Software Studies: a lexicon. MIT Press.  <br/>  McLean, A (2011) Artist-Programmers and Programming Languages for the Arts. Thesis Paper. Goldsmiths UoL.  <br/>  "Esolangs" - [https://esolangs.org](https://esolangs.org) (sourced 7/1/18). <br/>  "Esoteric Codes" - [http://esoteric.codes/](http://esoteric.codes/) (sourced 7/1/18). <br/>  "Harvard Quipu Database" - [http://khipukamayuq.fas.harvard.edu/](http://khipukamayuq.fas.harvard.edu/) (sourced 7/1/18). <br/>  "PENELOPE Weaving as Techinical Existance" - [https://penelope.hypotheses.org/](https://penelope.hypotheses.org/) (sourced 7/1/18). <br/>  <br/> The quipuMaker Documentation Video is available here - [https://vimeo.com/250792355](https://vimeo.com/250792355). 
