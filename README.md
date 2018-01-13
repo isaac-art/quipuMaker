@@ -10,7 +10,9 @@ quipuMaker is an ASCII to Quipu knot diagram maker. 
   **produced by**: Isaac Clarke   
 
 <br/>
-Documentation Video: [https://vimeo.com/250792355](https://vimeo.com/250792355)  
+Documentation Video: https://vimeo.com/250792355
+
+<br/>
 <br/>
 
 Quipu (or talking knots) are knotted databases used by the Incas.  Quipiu became the main form of record-keeping for the Inca Empire. As they had no written language the Quipu is our main evidence for theory on the society and culture of that time. They were used for a wide variety of reasone such as census databases, recording infomation about the distribution of wealth, or displaying the  prices of different goods at a market.     
