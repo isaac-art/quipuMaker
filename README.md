@@ -3,12 +3,6 @@
 ![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/quipuMaker/exampleSingleImage-1920x1080.png)
 ##### Sample Image (1920 x 1080)
 
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/quipuMaker/exampleThumb.png)
-##### Thumbnail (740 x 450)
-
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_E1213.jpg)
-##### Test Quipu
-
 ---
 
 ### quipuMaker
@@ -39,23 +33,30 @@ Originally this output a single image containing all of the quipus of a file. T
   
 ---
 <br/>
-### Sketchbook
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1187.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1188.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1189.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1190.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1191.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1192.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1193.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1194.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1195.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1196.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1197.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1198.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1199.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1200.jpg)
-![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/quipuTest.JPG)
+### Sketchbook  <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1187.jpg) <br/> 
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1188.jpg) <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1189.jpg) <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1190.jpg) <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1191.jpg) <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1192.jpg) <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1193.jpg) <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1194.jpg) <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1195.jpg) <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1196.jpg) <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1197.jpg) <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1198.jpg) <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1199.jpg) <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1200.jpg) <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/quipuTest.JPG) <br/>
 
+ <br/>
+
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/quipuMaker/exampleThumb.png)
+##### Thumbnail (740 x 450) <br/>
+ <br/>
+![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_E1213.jpg)
+##### Test Quipu <br/>
 ---
 <br/>
 ### References  <br/>
