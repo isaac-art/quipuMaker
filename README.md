@@ -32,7 +32,7 @@ Originally this output a single image containing all of the quipus of a file. T
   <br/> The experiments with tape-loop-memory languages can also be found in the git repository. [https://github.com/isaac-art/quipuMaker](https://github.com/isaac-art/quipuMaker)
   
 ---
-<br/>
+
 ### Sketchbook  <br/>
 ![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1187.jpg) <br/> 
 ![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1188.jpg) <br/>
@@ -49,13 +49,14 @@ Originally this output a single image containing all of the quipus of a file. T
 ![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1199.jpg) <br/>
 ![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_1200.jpg) <br/>
 ![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/quipuTest.JPG) <br/>
-
- <br/>
-
+<br/>
 ![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/quipuMaker/exampleThumb.png)
+<br/>
 ##### Thumbnail (740 x 450) <br/>
  <br/>
+<br/>
 ![](https://raw.githubusercontent.com/isaac-art/quipuMaker/master/sketchbook/IMG_E1213.jpg)
+<br/>
 ##### Test Quipu <br/>
 ---
 <br/>
