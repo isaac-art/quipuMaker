@@ -8,7 +8,7 @@
 
 ---
 
-###quipuMaker
+### quipuMaker
 quipuMaker is an ASCII to Quipu knot diagram maker.   
   **produced by**: Isaac Clarke   
 
